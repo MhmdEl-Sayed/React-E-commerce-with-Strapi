@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Signika:wght@300..700&display=swap');
+
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+.flex{
+  display: flex;
+}
+.border{
+  border: 2px solid red;
+}
+
+
+/* Scrollbar////// */
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+ }
+ 
+::-webkit-scrollbar-track {
+  border: 7px solid #292c3b;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  background-color: #d4d4d8;
+  }
+ 
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 6.5px;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+ 
+/* for Firefox */
+ html {scrollbar-color: #9e4673 #3d4a59;} 
